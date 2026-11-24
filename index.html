@@ -96,6 +96,11 @@ details summary{cursor:pointer;color:var(--soft);margin-top:18px;min-height:44px
 .about{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:28px;align-items:center}
 .about img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:18px;display:block}
 @media(max-width:600px){.about{grid-template-columns:1fr}.about img{max-width:280px;margin:0 auto}}
+.gifts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:4px}
+.gift{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink);margin-top:12px;border-left:4px solid var(--salbei)}
+.gift b{font-family:"Playfair Display",Georgia,serif;font-weight:400;font-size:20px}
+.gift span{font-size:15px;color:var(--soft)}
+.gift:hover,.gift:focus-visible{border-color:var(--rosa)}
 footer{background:light-dark(#f1e5dc,#2a221e);text-align:center}
 footer a{color:inherit}
 .small{font-size:14px;color:var(--soft)}
@@ -296,6 +301,13 @@ footer a{color:inherit}
       <h3>Du willst raus aus dem Funktionieren?</h3>
       <p style="margin-top:8px">In meiner Begleitung „Lust auf Leichtigkeit“ gehen wir drei Monate gemeinsam. Schritt für Schritt, bis sich dein Alltag wieder leichter anfühlt. Dein Spontantermin wird darauf angerechnet.</p>
       <a class="btn light" href="https://innervision-kerstin.github.io/innervision/links/">Mehr über die Begleitung</a>
+    </div>
+    <div style="max-width:540px;margin:36px auto 0;text-align:left">
+      <h3>Noch mehr kleine Helfer, gratis für dich</h3>
+      <div class="gifts">
+        <a class="card gift" href="https://innervision.mytentary.com/p/I4fGye"><b>Selbsthilfekoffer</b><span>Erste Hilfe für herausfordernde Tage</span></a>
+        <a class="card gift" href="https://innervision.mytentary.com/p/JB1uul"><b>Wenn dein Akku leer ist</b><span>Dein Kompass zurück zu dir</span></a>
+      </div>
     </div>
     <p class="small" style="margin-top:28px">Die Übungen ersetzen keine ärztliche oder therapeutische Behandlung.<br>Alles Liebe, deine Kerstin · InnerVision</p>
   </div>
